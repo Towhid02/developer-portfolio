@@ -74,10 +74,11 @@ nav a{
 } 
 /* main */
 .about{
-    padding: 130px;
+    padding: 100px;
     border-radius: 10px;
     background-color: #f8e7db;
-    margin: 130px ;
+    margin: 100px ;
+    border: 2px solid rgb(227, 111, 17);
 }
 .section-title{
     color: #181818;
@@ -90,4 +91,43 @@ nav a{
     color: #757575;
     text-align: center;
     font-size: 20px;
+}
+main{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 120px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 23px; 
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-description{
+    color: #757575;
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    
 }
