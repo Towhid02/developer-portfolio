@@ -5,23 +5,25 @@
     font-family: 'latio'sans-serif ;
 }
 /* nav related style */
-nav{
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-nav>ul{
+.nav>ul{
     display: flex;
     text-decoration: none;
     align-items: center;
 }
-nav li{
+.nav li{
     list-style: none;
     margin-right: 50px;
+    position: sticky;
+    
 
 }
-nav a{
+.nav a{
     text-decoration: none;
     color: #474747;
 }
@@ -129,5 +131,34 @@ main{
     font-weight: 700;
 }
 .resume-container{
+    display: flex;
+    gap: 50px;
     
+}
+..resume-container hr{
+    margin: 30px;
+}
+.resume-item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px ;
+}
+.resume-item-institution{
+    margin-top: 20px;
+}
+.resume-item-institution .resume-item-description{
+    color: #757575;
+    
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    margin-top: 100px;
+    padding:  150px 200px;
 }
